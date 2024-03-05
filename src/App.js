@@ -19,9 +19,6 @@ function App() {
           <Route path='/cart' element={<Cart />}></Route>
 
         </Routes>
-
-
-        <Cart />
       </BrowserRouter>
     </Provider>
 
