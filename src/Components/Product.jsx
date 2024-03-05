@@ -25,7 +25,7 @@ function Product() {
                     <img src={product.image} alt="product" />
                     <h6>{product.title}</h6>
                     <h5>{product.price}</h5>
-                    <button className="btn" onClick={() => handleAddToCart(product)}> Add to Cart</button>
+                    <button onClick={() => handleAddToCart(product)} className="btn"> Add to Cart</button>
                 </div>
             })}
 
